@@ -4,7 +4,8 @@
 package Brian;
 
 import java.util.List;
-
+import java.util.ArrayList;
+import java.util.Iterator;;
 
 
 
@@ -12,7 +13,7 @@ import java.util.List;
  * @author BASKAR
  *
  */
-public class Iterator {
+public class IteratorEg {
 	
 	public static void main(String[] arg){
 		
@@ -45,7 +46,7 @@ public class Iterator {
 		
 		Iterator<String> acc = online.iterator();
 		
-		while(acc.hasnext){
+		while(acc.hasNext()){
 			System.out.println(acc.next());
 		}
 		
